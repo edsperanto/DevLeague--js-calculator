@@ -40,8 +40,8 @@ function calculatorModule() {
    * Subtracts the value passed in from `total`
    * @param  { Number } x
    */
-  function _subtract() {
-
+  function _subtract(x) {
+    _total -= x;
   }
 
   /**
