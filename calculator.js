@@ -25,7 +25,7 @@ function calculatorModule() {
    * @return { Number }
    */
   function _getTotal() {
-
+    return _total;
   }
 
   /**
