@@ -12,7 +12,8 @@ function calculatorModule() {
    * @param  { Number } x
    * @return { Number }    current total
    */
-
+  function _load(x) {
+  }
 
   /**
    * Return the value of `total`
@@ -64,7 +65,7 @@ function calculatorModule() {
    */
 
   return {
-
+    load: _load
   };
 
 }
