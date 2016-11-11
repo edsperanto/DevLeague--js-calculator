@@ -56,7 +56,9 @@ function calculatorModule() {
    * Divides the value passing in by `total`
    * @param  { Number } x
    */
+  function _divide() {
 
+  }
 
   /**
    * Return the value stored at `memory`
@@ -82,7 +84,8 @@ function calculatorModule() {
     getTotal: _getTotal,
     add: _add,
     subtract: _subtract,
-    multiply: _multiply
+    multiply: _multiply,
+    divide: _divide
   };
 
 }
