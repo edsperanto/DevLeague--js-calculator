@@ -65,7 +65,7 @@ function calculatorModule() {
    * @return { Number }
    */
   function _recallMemory() {
-
+    return _memory;
   }
 
   /**
