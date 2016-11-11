@@ -85,6 +85,11 @@ function calculatorModule() {
   /**
    * Validation
    */
+  function validator(x) {
+    if(typeof x !== "number") {
+      throw Error();
+    }
+  }
 
   return {
     load: _load,
