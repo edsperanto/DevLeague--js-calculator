@@ -71,7 +71,9 @@ function calculatorModule() {
   /**
    * Stores the value of `total` to `memory`
    */
+  function _saveMemory() {
 
+  }
 
   /**
    * Clear the value stored at `memory`
@@ -88,7 +90,8 @@ function calculatorModule() {
     subtract: _subtract,
     multiply: _multiply,
     divide: _divide,
-    recallMemory: _recallMemory
+    recallMemory: _recallMemory,
+    saveMemory: _saveMemory
   };
 
 }
