@@ -63,4 +63,8 @@ function calculatorModule() {
    * Validation
    */
 
+  return {
+
+  };
+
 }
