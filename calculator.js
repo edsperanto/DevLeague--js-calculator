@@ -79,7 +79,7 @@ function calculatorModule() {
    * Clear the value stored at `memory`
    */
   function _clearMemory() {
-
+    _memory = 0;
   }
 
   /**
