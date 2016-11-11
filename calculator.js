@@ -48,8 +48,8 @@ function calculatorModule() {
    * Multiplies the value by `total`
    * @param  { Number } x
    */
-  function _multiply() {
-
+  function _multiply(x) {
+    _total *= x;
   }
 
   /**
