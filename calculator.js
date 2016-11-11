@@ -7,12 +7,17 @@
  */
 function calculatorModule() {
 
+  _total = 0;
+  _memory = 0;
+
   /**
    * sets the `total` to the number passed in
    * @param  { Number } x
    * @return { Number }    current total
    */
   function _load(x) {
+    _total = x;
+    return _total;
   }
 
   /**
