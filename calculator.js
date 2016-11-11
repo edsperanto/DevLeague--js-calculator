@@ -56,8 +56,8 @@ function calculatorModule() {
    * Divides the value passing in by `total`
    * @param  { Number } x
    */
-  function _divide() {
-
+  function _divide(x) {
+    _total /= x;
   }
 
   /**
