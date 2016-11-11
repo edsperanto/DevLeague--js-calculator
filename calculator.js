@@ -72,7 +72,7 @@ function calculatorModule() {
    * Stores the value of `total` to `memory`
    */
   function _saveMemory() {
-
+    _memory = _total;
   }
 
   /**
