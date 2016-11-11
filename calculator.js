@@ -32,8 +32,8 @@ function calculatorModule() {
    * Sums the value passed in with `total`
    * @param { Number } x
    */
-  function _add() {
-
+  function _add(x) {
+    _total += x;
   }
 
   /**
